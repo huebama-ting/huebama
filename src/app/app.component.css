@@ -1,4 +1,4 @@
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.p-scroll  {
   position: relative;
   opacity: 0.95;
   background-attachment: fixed;
@@ -9,15 +9,15 @@
   color: black;
 }
 
-.bgimg-1 {
+#header {
   background-image: url("../assets/a.png");
 }
 
-.bgimg-2 {
+#wtr {
   background-image: url("../assets/test.jpg");
 }
 
-.bgimg-3 {
+#job-desc {
   background-image: url("../assets/b.png");
 }
 
