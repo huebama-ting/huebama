@@ -9,6 +9,7 @@ import { WorkTermReportComponent } from './work-term-report/work-term-report.com
 import { CompanyDescComponent } from './company-desc/company-desc.component';
 import { JobDescComponent } from './job-desc/job-desc.component';
 import { ModalComponent } from './modal/modal.component';
+import { ConclusionComponent } from './conclusion/conclusion.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ModalComponent } from './modal/modal.component';
     WorkTermReportComponent,
     CompanyDescComponent,
     JobDescComponent,
-    ModalComponent
+    ModalComponent,
+    ConclusionComponent
   ],
   imports: [
     BrowserModule,
