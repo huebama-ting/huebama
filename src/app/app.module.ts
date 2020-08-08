@@ -10,6 +10,7 @@ import { CompanyDescComponent } from './company-desc/company-desc.component';
 import { JobDescComponent } from './job-desc/job-desc.component';
 import { ModalComponent } from './modal/modal.component';
 import { ConclusionComponent } from './conclusion/conclusion.component';
+import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ConclusionComponent } from './conclusion/conclusion.component';
     CompanyDescComponent,
     JobDescComponent,
     ModalComponent,
-    ConclusionComponent
+    ConclusionComponent,
+    ConclusionAckComponent
   ],
   imports: [
     BrowserModule,
