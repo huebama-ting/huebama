@@ -21,14 +21,17 @@
   background-image: url("../assets/b.png");
 }
 
-#goals {
+#bonus {
   background-image: url("../assets/c.png");
 }
 
-/* Turn off parallax scrolling for tablets and phones
+#conc-ack {
+  background-image: url("../assets/d.png");
+}
+
+/* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .p-scroll {
     background-attachment: scroll;
   }
 }
-*/

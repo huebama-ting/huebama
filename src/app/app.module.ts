@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -8,8 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { WorkTermReportComponent } from './work-term-report/work-term-report.component';
 import { CompanyDescComponent } from './company-desc/company-desc.component';
 import { JobDescComponent } from './job-desc/job-desc.component';
-import { ModalComponent } from './modal/modal.component';
-import { ConclusionComponent } from './conclusion/conclusion.component';
+import { WtsModalComponent } from './wts-modal/wts-modal.component';
 import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.component';
 
 @NgModule({
@@ -19,8 +18,7 @@ import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.componen
     WorkTermReportComponent,
     CompanyDescComponent,
     JobDescComponent,
-    ModalComponent,
-    ConclusionComponent,
+    WtsModalComponent,
     ConclusionAckComponent
   ],
   imports: [
@@ -28,7 +26,7 @@ import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.componen
     AppRoutingModule,
     NgbModule
   ],
-  providers: [],
+  providers: [Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

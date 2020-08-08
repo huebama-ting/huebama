@@ -10,6 +10,7 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
+
     <div class="modal-body text-center">
       <div class="list-group">
         <div class="list-group-item  flex-column align-items-start">
@@ -20,6 +21,7 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
           <p>Oftentimes, communication to and from other teams was needed due to the multifaceted nature of the product to make sure issues were escalated to the right people or to confirm whether an issue was a feature or a bug.</p>
           <small class="text-muted">The communication aspect was learned from class during collaborative projects, with tweaks coming from experience on the job to better adjust to company environment.</small>
         </div>
+
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
             <h5>Knowledge of the testing workflow</h5>
@@ -28,6 +30,7 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
           <p>A large portion of the job focussed on testing a product; therefore knowledge of how to conduct tests properly by covering edge cases, making a note of input and output, etc. was essential.</p>
           <small class="text-muted">Like above, the theoretical portion of the skill came from learning about testing in class, with experience on the job in the form of detailed Jira test cases and feedback for teammates allowing the task to be streamlined.</small>
         </div>
+
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
             <h5>Written communication skills</h5>
@@ -38,6 +41,7 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
         </div>
       </div>
     </div>
+    
     <div class="modal-footer">
       <button type="button" class="btn btn-outline-dark" (click)="activeModal.close()">Close</button>
     </div>
@@ -49,10 +53,10 @@ export class NgbsModalContent {
 }
 
 @Component({
-  selector: 'ngbs-modal',
-  templateUrl: './modal.component.html'
+  selector: 'ngbs-wts-modal',
+  templateUrl: './wts-modal.component.html'
 })
-export class ModalComponent {
+export class WtsModalComponent {
   constructor(private modalService: NgbModal) {}
 
   open() {

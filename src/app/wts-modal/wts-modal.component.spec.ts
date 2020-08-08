@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ConclusionComponent } from './conclusion.component';
+import { WtsModalComponent } from './wts-modal.component';
 
-describe('ConclusionComponent', () => {
-  let component: ConclusionComponent;
-  let fixture: ComponentFixture<ConclusionComponent>;
+describe('WtsModalComponent', () => {
+  let component: WtsModalComponent;
+  let fixture: ComponentFixture<ModalWtsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ConclusionComponent ]
+      declarations: [ ModalWtsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ConclusionComponent);
+    fixture = TestBed.createComponent(WtsModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
