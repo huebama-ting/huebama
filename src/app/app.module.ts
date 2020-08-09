@@ -11,6 +11,7 @@ import { JobDescComponent } from './job-desc/job-desc.component';
 import { WtsModalComponent } from './wts-modal/wts-modal.component';
 import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.component';
 import { GoalsComponent } from './goals/goals.component';
+import { BonusComponent } from './bonus/bonus.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { GoalsComponent } from './goals/goals.component';
     JobDescComponent,
     WtsModalComponent,
     ConclusionAckComponent,
-    GoalsComponent
+    GoalsComponent,
+    BonusComponent
   ],
   imports: [
     BrowserModule,
