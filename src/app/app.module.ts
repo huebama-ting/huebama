@@ -10,6 +10,7 @@ import { CompanyDescComponent } from './company-desc/company-desc.component';
 import { JobDescComponent } from './job-desc/job-desc.component';
 import { WtsModalComponent } from './wts-modal/wts-modal.component';
 import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.component';
+import { GoalsComponent } from './goals/goals.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.componen
     CompanyDescComponent,
     JobDescComponent,
     WtsModalComponent,
-    ConclusionAckComponent
+    ConclusionAckComponent,
+    GoalsComponent
   ],
   imports: [
     BrowserModule,
