@@ -1,3 +1,11 @@
 #title {
-  font-size: 36px; 
+    font-size: 3em;
+}
+
+#company {
+    font-size: 2em;
+}
+
+#desc {
+    font-size: 1.5em;
 }

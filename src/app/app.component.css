@@ -10,27 +10,27 @@
 }
 
 #header {
-  background-image: url("../assets/a.png");
+  background-image: url("../assets/l.jpg");
 }
 
 #wtr {
-  background-image: url("../assets/test.jpg");
+  background-image: url("../assets/test.png");
 }
 
 #job-desc {
-  background-image: url("../assets/b.png");
+  background-image: url("../assets/h.jpg");
 }
 
 #goals {
-  background-image: url("../assets/c.png");
+  background-image: url("../assets/k.jpg");
 }
 
 #bonus {
-  background-image: url("../assets/e.png");
+  background-image: url("../assets/v.jpg");
 }
 
 #conc-ack {
-  background-image: url("../assets/d.png");
+  background-image: url("../assets/j.jpg");
 }
 
 /* Turn off parallax scrolling for tablets and phones */

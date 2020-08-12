@@ -28,7 +28,7 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
             <small class="text-muted">Skill #2</small>
           </div>
           <p>A large portion of the job focussed on testing a product; therefore knowledge of how to conduct tests properly by covering edge cases, making a note of input and output, etc. was essential.</p>
-          <small class="text-muted">Like above, the theoretical portion of the skill came from learning about testing in class, with experience on the job in the form of detailed Jira test cases and feedback for teammates allowing the task to be streamlined.</small>
+          <small class="text-muted">The theoretical portion of the skill came from learning about testing in class, with experience on the job in the form of detailed Jira test cases and feedback for teammates allowing the task to be streamlined.</small>
         </div>
 
         <div class="list-group-item flex-column align-items-start">

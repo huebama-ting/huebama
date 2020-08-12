@@ -1,8 +1,11 @@
 #name {
-  font-size: 72px;
-  color: black;
+  font-size: 5em;
 }
 
 #info {
-  font-size: 24px;
+  font-size: 3em;
+}
+
+#desc {
+    font-size: 1.5em;
 }
