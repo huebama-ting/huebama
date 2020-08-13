@@ -5,7 +5,7 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
   selector: 'ngbs-modal-content',
   template: `
     <div class="modal-header">
-      <h4 class="modal-title">Work Term Skills</h4>
+      <p class="modal-title title">Work Term Skills</p>
       <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss()">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -15,29 +15,29 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
       <div class="list-group">
         <div class="list-group-item  flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <h5>Interteam communication</h5>
+            <p class="skill">Interteam communication</p>
             <small class="text-muted">Skill #1</small>
           </div>
-          <p>Oftentimes, communication to and from other teams was needed due to the multifaceted nature of the product to make sure issues were escalated to the right people or to confirm whether an issue was a feature or a bug.</p>
-          <small class="text-muted">The communication aspect was learned from class during collaborative projects, with tweaks coming from experience on the job to better adjust to company environment.</small>
+          <p class="content">Oftentimes, communication to and from other teams was needed due to the multifaceted nature of the product to make sure issues were escalated to the right people or to confirm whether an issue was a feature or a bug.</p>
+          <p class="text-muted outcome">The communication aspect was learned from class during collaborative projects, with tweaks coming from experience on the job to better adjust to company environment.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <h5>Knowledge of the testing workflow</h5>
+            <p class="skill">Knowledge of the testing workflow</p>
             <small class="text-muted">Skill #2</small>
           </div>
-          <p>A large portion of the job focussed on testing a product; therefore knowledge of how to conduct tests properly by covering edge cases, making a note of input and output, etc. was essential.</p>
-          <small class="text-muted">The theoretical portion of the skill came from learning about testing in class, with experience on the job in the form of detailed Jira test cases and feedback for teammates allowing the task to be streamlined.</small>
+          <p class="content">A large portion of the job focussed on testing a product; therefore knowledge of how to conduct tests properly by covering edge cases, making a note of input and output, etc. was essential.</p>
+          <p class="text-muted outcome">The theoretical portion of the skill came from learning about testing in class, with experience on the job in the form of detailed Jira test cases and feedback for teammates allowing the task to be streamlined.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <h5>Written communication skills</h5>
+            <p class="skill">Written communication skills</p>
             <small class="text-muted">Skill #3</small>
           </div>
-          <p>The primary way to report an issue that comes up in testing is via a bug ticket in Jira: the devs rely on this ticket to solve the issue, so being concise and to the point in as much detail as possible when describing the issue and giving issue reproduction steps is important to make the job easier for everyone. Additionally, direct communication is often required with the client to clarify issues or to report testing results, making a professional tone a necessity on the job.</p>
-          <small class="text-muted">As I had never written a bug report before starting this job, the bug report portion was definitely learned on the job, while the professional communication aspect came from life experience through interacting with other people.</small>
+          <p class="content">The primary way to report an issue that comes up in testing is via a bug ticket in Jira: the devs rely on this ticket to solve the issue, so being concise and to the point in as much detail as possible when describing the issue and giving issue reproduction steps is important to make the job easier for everyone. Additionally, direct communication is often required with the client to clarify issues or to report testing results, making a professional tone a necessity on the job.</p>
+          <p class="text-muted outcome">As I had never written a bug report before starting this job, the bug report portion was definitely learned on the job, while the professional communication aspect came from life experience through interacting with other people.</p>
         </div>
       </div>
     </div>
@@ -45,7 +45,8 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
     <div class="modal-footer">
       <button type="button" class="btn btn-outline-dark" (click)="activeModal.close()">Close</button>
     </div>
-  `
+  `,
+  styleUrls: ['./wts-modal.component.css']
 })
 
 export class NgbsModalContent {
