@@ -1,16 +1,16 @@
-<div class="container h-100 d-flex flex-column justify-content-center text-center">
+<div class="container">
   <div><br></div>
 
-  <div class="card">
+  <div class="card text-center">
     <div class="card-header">
       <p id="title">TABLE OF CONTENTS</p>
     </div>
     <div class="card-body">
-    <ul ngbNav class="nav nav-justified border-black list-group list-group-flush" orientation="vertical">
-      <li ngbNavItem class="list-group-item" *ngFor="let anchor of anchors">
-        <a ngbNavLink class="link" (click)="scroll(anchor.link)">{{ anchor.name }}</a>
-      </li>
-    </ul>
+      <ul ngbNav class="nav nav-justified border-black list-group list-group-flush" orientation="vertical">
+        <li ngbNavItem class="list-group-item" *ngFor="let anchor of anchors">
+          <a ngbNavLink class="link" (click)="scroll(anchor.link)">{{ anchor.name }}</a>
+        </li>
+      </ul>
     </div>
   </div>
 
