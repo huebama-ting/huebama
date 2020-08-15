@@ -13,7 +13,7 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
 
     <div class="modal-body text-center">
       <div class="list-group">
-        <div class="list-group-item  flex-column align-items-start">
+        <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
             <p class="skill">Interteam communication</p>
             <small class="text-muted">Skill #1</small>

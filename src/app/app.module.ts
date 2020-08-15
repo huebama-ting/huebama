@@ -12,6 +12,7 @@ import { WtsModalComponent } from './wts-modal/wts-modal.component';
 import { ConclusionAckComponent } from './conclusion-ack/conclusion-ack.component';
 import { GoalsComponent } from './goals/goals.component';
 import { BonusComponent } from './bonus/bonus.component';
+import { TblContentComponent } from './tbl-content/tbl-content.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { BonusComponent } from './bonus/bonus.component';
     WtsModalComponent,
     ConclusionAckComponent,
     GoalsComponent,
-    BonusComponent
+    BonusComponent,
+    TblContentComponent
   ],
   imports: [
     BrowserModule,

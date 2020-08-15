@@ -13,7 +13,11 @@
   background-image: url("../assets/l.jpg");
 }
 
-#wtr {
+#tbl {
+  background-image: url("../assets/y.jpg");
+}
+
+#comp-desc {
   background-image: url("../assets/test.png");
 }
 
