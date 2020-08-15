@@ -12,7 +12,7 @@ export class TblContentComponent implements OnInit {
     { link: 'job-desc', name: 'Job Description' },
     { link: 'goals', name: 'Goals' },
     { link: 'bonus', name: 'Bonus' },
-    { link: 'conc-ack', name: 'Conclusion/Acknowledgements' }
+    { link: 'conc-ack', name: 'Conclusion/Special Thanks' }
   ];
 
   constructor(private viewportScroller: ViewportScroller) { }
