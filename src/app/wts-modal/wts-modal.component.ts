@@ -15,29 +15,29 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
       <div class="list-group">
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Interteam communication</p>
+            <p class="skill">Intrateam communication</p>
             <small class="text-muted">Skill #1</small>
           </div>
-          <p class="content">Oftentimes, communication to and from other teams was needed due to the multifaceted nature of the product to make sure issues were escalated to the right people or to confirm whether an issue was a feature or a bug.</p>
-          <p class="text-muted outcome">The communication aspect was learned from class during collaborative projects, with tweaks coming from experience on the job to better adjust to company environment.</p>
+          <p class="content">Communication within the team was often needed to clarify the nature of a bug or feature and was also needed when conducting solution reviews to make sure everyone was on the same page.</p>
+          <p class="text-muted outcome">The communication aspect was learned from class during collaborative projects, with tweaks coming from experience on the job to better adjust to company environment (tone, order, etc.). It also came from experience from interacting with people outside the job in everyday life.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Knowledge of the testing workflow</p>
+            <p class="skill">Knowledge of the development workflow</p>
             <small class="text-muted">Skill #2</small>
           </div>
-          <p class="content">A large portion of the job focussed on testing a product; therefore knowledge of how to conduct tests properly by covering edge cases, making a note of input and output, etc. was essential.</p>
-          <p class="text-muted outcome">The theoretical portion of the skill came from learning about testing in class, with experience on the job in the form of detailed Jira test cases and feedback for teammates allowing the task to be streamlined.</p>
+          <p class="content">The everyday of the job consisted of taking tasks off the ready pile, completing the task, and then merging the completed work back into the master branch in source control. As such, it was essential to learn how to write commit messages and pull request descriptions.</p>
+          <p class="text-muted outcome">While I have written commit messages before, this job was the first time I had to follow a strict guideline for them. That combined with the fact that I had never used pull requests in source control before meant that this skill was definitely learned on the job.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Written communication skills</p>
+            <p class="skill">Presentation skills</p>
             <small class="text-muted">Skill #3</small>
           </div>
-          <p class="content">The primary way to report an issue that comes up in testing is via a bug ticket in Jira: the devs rely on this ticket to solve the issue, so being concise and to the point in as much detail as possible when describing the issue and giving issue reproduction steps is important to make the job easier for everyone. Additionally, direct communication is often required with the client to clarify issues or to report testing results, making a professional tone a necessity on the job.</p>
-          <p class="text-muted outcome">As I had never written a bug report before starting this job, the bug report portion was definitely learned on the job, while the professional communication aspect came from life experience through interacting with other people.</p>
+          <p class="content">The company has a monthly internal demo to introduce new features of the product to employees. Since I worked on a new feature, I was given the opportunity to take the wheel and demo the feature I coded.</p>
+          <p class="text-muted outcome">I had done a demo before as part of the Software Design II course, so this skill consisted applying what I had learned and experienced before with new contextual info I had on the job to improve the demo as much as possible.</p>
         </div>
       </div>
     </div>
