@@ -15,20 +15,20 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
       <div class="list-group">
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Intrateam communication</p>
+            <p class="skill">Being to work independently efficiently</p>
             <small class="text-muted">Skill #1</small>
           </div>
-          <p class="content">Communication within the team was often needed to clarify the nature of a bug or feature and was also needed when conducting solution reviews to make sure everyone was on the same page.</p>
-          <p class="text-muted outcome">The communication aspect was learned from class during collaborative projects, with tweaks coming from experience on the job to better adjust to company environment (tone, order, etc.). It also came from experience from interacting with people outside the job in everyday life.</p>
+          <p class="content">Because I was given control over the automation feature, it was expected that I would complete most of the work associated with it, with other developers focussing on the client facing changes to the product. As such, while there was some team coding involved, most of the work involved knowing how to work alone efficiently and searching for help alone.</p>
+          <p class="text-muted outcome">Both the working alone efficiently and looking for help aspects of the skill came from previous experience, mainly with large project related courses such as CIS*2750, although a portion of it also comes from previous co-op experience.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Knowledge of the development workflow</p>
+            <p class="skill">Knowledge of the source control workflow</p>
             <small class="text-muted">Skill #2</small>
           </div>
-          <p class="content">The everyday of the job consisted of taking tasks off the ready pile, completing the task, and then merging the completed work back into the master branch in source control. As such, it was essential to learn how to write commit messages and pull request descriptions.</p>
-          <p class="text-muted outcome">While I have written commit messages before, this job was the first time I had to follow a strict guideline for them. That, combined with the fact that I had never used pull requests in source control before meant that this skill was definitely learned on the job.</p>
+          <p class="content">The everyday of the job consisted of taking automation related tasks off the ready pile, completing the task, and then merging the completed work back into the develop branch in source control. As such, it was essential to learn how to write commit messages and pull request descriptions.</p>
+          <p class="text-muted outcome">Having written detailed commit messages and pull request descriptions before as part of another co-op placement, this skill consisted of adapting what I had previously learned and making it work with the new source control platform.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
@@ -36,8 +36,8 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
             <p class="skill">Presentation skills</p>
             <small class="text-muted">Skill #3</small>
           </div>
-          <p class="content">The company has a monthly internal demo to introduce new features of the product to employees. Since I worked on a new feature, I was given the opportunity to take the wheel and demo the feature I coded.</p>
-          <p class="text-muted outcome">I had done a demo before as part of the Software Design II course, so this skill consisted of applying what I had learned and experienced before with new contextual info that I had on the job to improve the demo as much as possible.</p>
+          <p class="content">Since the automation feature was a rather new thing, I was tasked with demoing the associated work a few times for different audiences, ranging from the partners with related work experience to senior leadership at Rocket Innovation Studio.</p>
+          <p class="text-muted outcome">I had done demos before as part of the Software Design II course and at another co-op placement, so this skill consisted of applying what I had learned and experienced before with new contextual info that I had on the job to improve the demos as much as possible.</p>
         </div>
       </div>
     </div>
