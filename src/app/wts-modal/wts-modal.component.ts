@@ -15,29 +15,29 @@ import { NgbModal, NgbActiveModal, NgbModalOptions } from '@ng-bootstrap/ng-boot
       <div class="list-group">
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Being to work independently efficiently</p>
+            <p class="skill">Being able to work independently efficiently, seeking help as required</p>
             <small class="text-muted">Skill #1</small>
           </div>
-          <p class="content">Because I was given control over the automation feature, it was expected that I would complete most of the work associated with it, with other developers focussing on the client facing changes to the product. As such, while there was some team coding involved, most of the work involved knowing how to work alone efficiently and searching for help alone.</p>
+          <p class="content">As is typical of a software developer position, it was expected that I could complete the taks I was assigned independently, especially if they were small in size. As such, while there was some team coding involved (mostly if I was assigned a large task using technologies I was not familiar with), most of the work involved knowing how to work alone efficiently and searching for help alone.</p>
           <p class="text-muted outcome">Both the working alone efficiently and looking for help aspects of the skill came from previous experience, mainly with large project related courses such as CIS*2750, although a portion of it also comes from previous co-op experience.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Knowledge of the source control workflow</p>
+            <p class="skill">Being able to pick up new skills quickly</p>
             <small class="text-muted">Skill #2</small>
           </div>
-          <p class="content">The everyday of the job consisted of taking automation related tasks off the ready pile, completing the task, and then merging the completed work back into the develop branch in source control. As such, it was essential to learn how to write commit messages and pull request descriptions.</p>
-          <p class="text-muted outcome">Having written detailed commit messages and pull request descriptions before as part of another co-op placement, this skill consisted of adapting what I had previously learned and making it work with the new source control platform.</p>
+          <p class="content">The technology stack used at work included a plethora of new technologies I had not been previously exposed to, so it was a requirement to fill in any gaps for things I was not familiar with quickly lest I would be left behind once the work started piling up.</p>
+          <p class="text-muted outcome">Having had to learn new technologies like new programming languages both at school (for example, Perl in Softwarre Design II) and at work, this skill consisted of applying strategies previously learned to speed up the process of learning the new technologies that I was required to use while on the job.</p>
         </div>
 
         <div class="list-group-item flex-column align-items-start">
           <div class="d-flex justify-content-between">
-            <p class="skill">Presentation skills</p>
+            <p class="skill">Meeting hosting skills</p>
             <small class="text-muted">Skill #3</small>
           </div>
-          <p class="content">Since the automation feature was a rather new thing, I was tasked with demoing the associated work a few times for different audiences, ranging from the partners with related work experience to senior leadership at Rocket Innovation Studio.</p>
-          <p class="text-muted outcome">I had done demos before as part of the Software Design II course and at another co-op placement, so this skill consisted of applying what I had learned and experienced before with new contextual info that I had on the job to improve the demos as much as possible.</p>
+          <p class="content">There were several occasions where I had to lead team meetings due to team member unavailability. These meetings were generally limited to be intra-team, meaning everyone was on the same page. They varied in range from being quick daily stand-ups to more complex iteration planning meetings.</p>
+          <p class="text-muted outcome">Having previous lead meetings before both at school as part of group projects and at other co-op placements, this skil mostly consisted of applying my previous experiences to the current siuation to make the meetings as streamlined as they could be.</p>
         </div>
       </div>
     </div>
